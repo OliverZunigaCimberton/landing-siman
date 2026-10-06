@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Roboto:wght@400;500&display=swap');
+
+/* colores tomados de siman.com: #A93239 rojo, #1F1F1F negro, #F1F1F1 gris, #C9A227 dorado */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.promo-bar {
+    padding: 8px;
+    background-color: #1F1F1F;
+    color: #fff;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 1rem 5%;
+    background-color: #A93239;
+}
+
+.navbar .logo {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+}
+
+.navbar ul li a {
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+    background-color: #8A262C;
+}
+
+.hero,
+.page-title {
+    padding: 3rem 5%;
+    background: linear-gradient(to right, #8A262C, #A93239);
+    color: #fff;
+}
+
+.page-title {
+    text-align: center;
+}
+
+.hero,
+.subscription {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+/* el min-width hace que en celular las dos mitades bajen una debajo de la otra */
+.half {
+    width: 45%;
+    min-width: 300px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-color: #1F1F1F;
+    font-size: 0.8rem;
+}
+
+.hero h1,
+.page-title h1 {
+    margin: 1rem 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 30px;
+    background-color: #A93239;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #8A262C;
+}
+
+.hero .button {
+    background-color: #fff;
+    color: #A93239;
+}
+
+.hero .button:hover {
+    background-color: #F1F1F1;
+}
+
+.section {
+    padding: 3rem 5%;
+}
+
+.gray {
+    background-color: #F1F1F1;
+}
+
+.dark {
+    background-color: #1F1F1F;
+    color: #fff;
+    text-align: center;
+}
+
+.dark p {
+    margin-top: 0.5rem;
+}
+
+.section h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.subtitle {
+    margin: 0.5rem 0 2rem;
+    color: #6B6B6B;
+    text-align: center;
+}
+
+.categories,
+.cards,
+.benefits,
+.events {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.category {
+    width: 13%;
+    min-width: 90px;
+    color: #1F1F1F;
+    text-align: center;
+    text-decoration: none;
+}
+
+.category img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.category:hover {
+    color: #A93239;
+}
+
+.card,
+.benefit {
+    width: 30%;
+    min-width: 280px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.card div {
+    padding: 1.2rem;
+}
+
+.card h3,
+.benefit h3,
+.notice h3,
+.event h3 {
+    margin: 0.5rem 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.card p,
+.event p {
+    color: #6B6B6B;
+}
+
+.card .discount {
+    display: inline-block;
+    padding: 3px 12px;
+    border-radius: 20px;
+    background-color: #C9A227;
+    color: #1F1F1F;
+    font-weight: bold;
+}
+
+.card .price {
+    margin-top: 0.8rem;
+    color: #A93239;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.card .old-price {
+    text-decoration: line-through;
+}
+
+.benefit {
+    padding: 1.5rem;
+    background-color: #F1F1F1;
+    text-align: center;
+}
+
+.notice {
+    padding: 1.5rem;
+    border-left: 5px solid #A93239;
+    border-radius: 5px;
+    background-color: #F1F1F1;
+}
+
+.event {
+    display: flex;
+    width: 45%;
+    min-width: 300px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.event div {
+    padding: 1rem 1.2rem;
+}
+
+.event .day {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 90px;
+    border-radius: 15px 0 0 15px;
+    background-color: #A93239;
+}
+
+.event .day p {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.subscription h2 {
+    text-align: left;
+}
+
+.subscription ul {
+    margin: 1rem 0;
+    list-style: none;
+}
+
+.form {
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form input,
+.form select {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form .check input {
+    width: auto;
+}
+
+.form .check label {
+    display: inline;
+    color: #6B6B6B;
+}
+
+.form .button {
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 2.5rem 5% 1rem;
+    background-color: #1F1F1F;
+    color: #ccc;
+}
+
+.footer div {
+    width: 30%;
+    min-width: 200px;
+}
+
+.footer h3 {
+    margin-bottom: 0.5rem;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #C9A227;
+}
+
+.footer .copy {
+    width: 100%;
+    padding-top: 1rem;
+    border-top: 1px solid #444;
+    text-align: center;
+    font-size: 0.85rem;
+}

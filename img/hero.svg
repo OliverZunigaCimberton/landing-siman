@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 420" role="img">
+  <rect width="500" height="420" rx="24" fill="#F3EDE7"/>
+  <ellipse cx="250" cy="370" rx="170" ry="16" fill="#1F1F1F" opacity=".1"/>
+  <rect x="80" y="170" width="150" height="190" rx="12" fill="#A93239"/>
+  <path d="M120 170v-30a35 35 0 0 1 70 0v30" fill="none" stroke="#1F1F1F" stroke-width="10" stroke-linecap="round"/>
+  <rect x="220" y="130" width="190" height="230" rx="14" fill="#fff"/>
+  <path d="M275 130v-35a40 40 0 0 1 80 0v35" fill="none" stroke="#1F1F1F" stroke-width="10" stroke-linecap="round"/>
+  <text x="315" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-weight="800" font-size="64" fill="#A93239">-50%</text>
+  <text x="315" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="18" fill="#1F1F1F">EN TODA LA TIENDA</text>
+  <g fill="#C9A227"><path d="M440 70l8 20 20 8-20 8-8 20-8-20-20-8 20-8z"/><path d="M60 80l6 14 14 6-14 6-6 14-6-14-14-6 14-6z"/></g>
+</svg>

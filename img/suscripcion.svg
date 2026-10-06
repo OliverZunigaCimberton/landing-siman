@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img">
+  <rect width="480" height="360" rx="24" fill="#F3EDE7"/>
+  <circle cx="400" cy="70" r="50" fill="#C9A227" opacity=".35"/>
+  <rect x="90" y="110" width="300" height="190" rx="14" fill="#A93239"/>
+  <path d="M90 124l150 100 150-100" fill="none" stroke="#fff" stroke-width="10" stroke-linejoin="round"/>
+  <rect x="140" y="50" width="200" height="120" rx="10" fill="#fff" stroke="#1F1F1F" stroke-width="4"/>
+  <text x="240" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-weight="800" font-size="36" fill="#A93239">VIP</text>
+  <text x="240" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1F1F1F">ofertas exclusivas</text>
+</svg>
